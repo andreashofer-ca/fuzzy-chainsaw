@@ -12,7 +12,7 @@ jobs:
   # This workflow contains a single job called "build"
   call-workflow:
     #call workflow
-      uses: andreashofer-ca/FOSS_Check_and_Register/.github/workflows/FOSS_Check_and_Register.yml@main
+      uses: andreashofer-ca/FOSS-Request-and-Register/.github/workflows/FOSS_Check_and_Register.yml@main
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
